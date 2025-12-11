@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daksh Menaria - Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #f4f7fa;
+            color: #333;
+        }
+        .resume-container {
+            display: flex;
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .sidebar {
+            width: 32%;
+            background: #1e3d59;
+            color: #fff;
+            padding: 40px 30px;
+            animation: slideInLeft 0.7s ease;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px auto;
+            border: 4px solid #fff;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .sidebar p, .sidebar li {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .main {
+            width: 68%;
+            padding: 40px;
+            animation: fadeIn 1s ease;
+        }
+        h3 {
+            color: #1e3d59;
+            border-left: 4px solid #1e3d59;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #1e3d59;
+            color: #fff;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+        .download-btn:hover {
+            background: #162c42;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideInLeft {
+            from { transform: translateX(-80px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @media (max-width: 768px) {
+            .resume-container {
+                flex-direction: column;
+            }
+            .sidebar, .main {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+
+    <div class="sidebar">
+        <img src="profile.jpg" alt="Profile Photo">
+        <h2>Daksh Menaria</h2>
+        <p>Udaipur, Rajasthan</p>
+        <p>Phone: 8441900421</p>
+        <p>Email: dakshmenaria53@gmail.com</p>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>MS Excel</li>
+            <li>Basic Analytics</li>
+            <li>Data Interpretation</li>
+            <li>Business Communication</li>
+            <li>Problem Solving</li>
+            <li>Decision Making</li>
+        </ul>
+
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Listening to Music</li>
+            <li>Documentaries</li>
+            <li>Exploring AI Tools</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <a class="download-btn" href="Daksh_Resume.pdf" download>Download PDF</a>
+
+        <h3>Career Objective</h3>
+        <p>Commerce graduate aiming to build a career with TCS by contributing strong analytical thinking, structured problem‑solving, and data-driven business understanding. Seeking an opportunity to support organisational efficiency and growth.</p>
+
+        <h3>Education</h3>
+        <p><strong>Bachelor of Commerce (B.Com)</strong><br>Mohanlal Sukhadia University, Udaipur (2025) | 64%</p>
+        <p><strong>Class 12 – Commerce</strong><br>Alok Senior Secondary School, Udaipur (2022)</p>
+        <p><strong>Class 10</strong><br>Alok Senior Secondary School, Udaipur (2020)</p>
+
+        <h3>Certifications</h3>
+        <ul>
+            <li>AI Analytics – Forege</li>
+            <li>Predictive Analytics & EDA</li>
+            <li>Data Interpretation & Reporting</li>
+            <li>Strategic Thinking</li>
+        </ul>
+
+        <h3>Projects</h3>
+        <ul>
+            <li>Analytical Assessment Project – Performed model selection and validation using AI analytics workflow.</li>
+            <li>Data Quality & Business Reporting – Completed structured reporting aligned with industry standards.</li>
+        </ul>
+
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="#">GitHub Portfolio (add later)</a></li>
+            <li><a href="#">LinkedIn Profile (add later)</a></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
